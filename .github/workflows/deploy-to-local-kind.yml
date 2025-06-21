@@ -6,6 +6,7 @@ on:
 
 jobs:
   deploy-windows:
+    environment: training
     runs-on: [self-hosted, windows]
     steps:
       - uses: actions/checkout@v4
